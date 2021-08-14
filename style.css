@@ -11,6 +11,7 @@ body {
     align-items: center;
     align-content: center;
     justify-content: space-evenly;
+    background-color: rgb(106, 205, 230);
 }
 #box {
     border: 1px solid #000000;
@@ -20,10 +21,15 @@ body {
     flex-direction: column;
     justify-content: space-evenly;
 }
+.estilizaAi {
+    height: 25px;
+    background-color: aliceblue;
+    padding: 3px;
+}
 
 @media (min-width: 600px) {
     #box {
         max-width: 600px;
-        background-color: #867302;
+        background-color: #4f691e;
     }
 }
